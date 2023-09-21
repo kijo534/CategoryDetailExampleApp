@@ -6,6 +6,19 @@ public class Food {
     private double price;
     private int imageResourceID;
 
+    public static final Food[] Breakfast = {
+            new Food()
+    };
+
+    public static final Food[] Lunch = {
+            new Food("Burger", "Double Cheeseburger", 7.99, R.drawable.burger),
+
+            new Food("French Fries", "Very Crispy French Fries", 4.99, R.drawable.fries),
+
+            new Food("Meatball Sub", "Marinara sauce and Meatball", 6.99, R.drawable.meatball),
+    };
+
+
     //Constructor
     public Food(String name, String desc, double price, int imageResourceID) {
         this.name = name;
