@@ -50,6 +50,12 @@ public class Food implements Parcelable {
         this.price = price;
         this.imageResourceID = imageResourceID;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
     // A default constructor is required for the Parcelable interface to work
     //if you forget this default constructor you cannot use this object as intended
     //even if you never use this specifically. THIS IS REQUIRED
