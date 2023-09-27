@@ -11,6 +11,15 @@
     <ListView
         android:id="@+id/list_options"
         android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:cacheColorHint="#FAFAFA"
+        android:entries="@array/Options" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:entries="@array/Options"
-        /></androidx.appcompat.widget.LinearLayoutCompat>
+        app:srcCompat="@drawable/kimkafe"
+        android:layout_gravity="center_horizontal"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
